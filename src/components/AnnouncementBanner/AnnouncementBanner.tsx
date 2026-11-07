@@ -4,7 +4,7 @@ import styles from './AnnouncementBanner.module.css'
 
 const DISMISS_KEY = 'openthorn:announcement-dismissed'
 /** Shown when admin config has no announcement — equity transfer to NixSite. */
-const FALLBACK_ANNOUNCEMENT: Announcement = {
+const // FALLBACK_ANNOUNCEMENT: Announcement = {
   text: 'OpenThorn continues as NixSite at BTA Labs — same free BYOK builder, no subscription.',
   link: 'https://btalabs.dev/nixsite',
   enabled: true,
